@@ -1,0 +1,240 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans" , sans-serif;
+}
+
+body{
+  background-image: url("./homeWallpaper.jpg");
+  background-size: 100%;
+}
+
+nav{
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 5px solid gray;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #F6F8FA;
+    background-color: #F4F7FA;
+}
+
+#navigate{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+.logo{
+   height : 5%;
+    width : 5%;
+    /*margin-top: 2px;*/
+}
+
+#box {
+  opacity: 0.8;
+}
+
+.link-preview1 {
+  position: relative;
+}
+
+.link-preview1:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/1.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+
+.link-preview2 {
+  position: relative;
+}
+
+.link-preview2:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/2.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview3 {
+  position: relative;
+}
+
+.link-preview3:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/3.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview4 {
+  position: relative;
+}
+
+.link-preview4:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/4.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview5 {
+  position: relative;
+}
+
+.link-preview5:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/5.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview6 {
+  position: relative;
+}
+
+.link-preview6:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/6.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview7 {
+  position: relative;
+}
+
+.link-preview7:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/7.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview8 {
+  position: relative;
+}
+
+.link-preview8:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/8.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview9 {
+  position: relative;
+}
+
+.link-preview9:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/9.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}
+
+.link-preview10 {
+  position: relative;
+}
+
+.link-preview10:hover:after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 350px;
+  height: 350px;
+  background-image: url('../photos/10.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 9999;
+}

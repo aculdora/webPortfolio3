@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+				<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;400&family=Open+Sans&family=Playfair+Display&family=Roboto:wght@400;700&family=Source+Serif+Pro&family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">
+				
+				<link rel="stylesheet" href="./toolsSection.css">
+
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
+
+
+					<title>Tools Section</title>
+	</head>
+
+<body class="text-center">
+
+	<nav class="navbar navbar-expand-lg navbar-light mt-1 border-bottom border-dark">
+		<img class="logo img-fluid" src="../photos/ALClogo.png"> <a class="navbar-brand ml-2 text-dark" href="../index.html">Anthony Culdora</a> 
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  			<div class="collapse navbar-collapse" id="navbarNav">
+	    			<ul id="navigate" class="navbar-nav ml-auto">
+	      			<li class="nav-item active">
+	    	  			<a class="nav-link text-dark fw-bold" href="../index.html">Home</a>
+	      			</li>
+	      			<li class="nav-item">
+	        			<a class="nav-link text-dark fw-bold" href="./projectsSection.html">Projects</a>
+	      			</li>
+	      			<li class="nav-item">
+	        			<a class="nav-link text-dark fw-bold" href="./toolsSection.html">Tools</a>
+	      			</li>
+	      			<li class="nav-item">
+	        			<a class="nav-link text-dark fw-bold" href="./contactSection.html">Contact</a>
+	      			</li>
+	    			</ul>
+	  			</div>
+	</nav>
+
+<!-- <h3 class="text-white m-3">Tools & Proficiency</h3>
+
+<div class="m-3">
+  <div class="text-white">
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar" style="width: 70%;"></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="skill-bar" style="width: 80%;"></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-bar" style="width: 50%;"></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Sublime</div>
+      <div class="skill-bar" style="width: 90%;"></div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Bootstrap</div>
+      <div class="skill-bar" style="width: 60%;"></div>
+    </div>
+  </div>
+</div> -->
+
+	<div class="container mt-5">
+		<h1 class="text-white">Coding Tools Proficiency</h1>
+		<canvas id="chart"></canvas>
+	</div>
+
+	<script>
+		// Get the canvas element and initialize Chart.js
+		var ctx = document.getElementById('chart').getContext('2d');
+		var chart = new Chart(ctx, {
+			type: 'bar',
+			data: {
+				labels: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'MongoDb', 'NoSQL','Express.js','Back-End Web Development','Front-End Web Development','Bootstrap','Semantic HTML','GitHub','GitLab','Git'],
+				datasets: [{
+					label: 'Proficiency Percentage',
+					data: [70, 70, 40, 40, 30, 80, 70, 60, 50, 70, 70, 70, 80, 80, 80],
+					backgroundColor: [
+						'rgba(255, 99, 132, 0.2)',
+						'rgba(54, 162, 235, 0.2)',
+						'rgba(255, 206, 86, 0.2)',
+						'rgba(75, 192, 192, 0.2)',
+						'rgba(153, 102, 255, 0.2)',
+						'rgba(255, 99, 132, 0.2)',
+						'rgba(54, 162, 235, 0.2)',
+						'rgba(255, 206, 86, 0.2)',
+						'rgba(75, 192, 192, 0.2)',
+						'rgba(153, 102, 255, 0.2)',
+						'rgba(255, 99, 132, 0.2)',
+						'rgba(54, 162, 235, 0.2)',
+						'rgba(255, 206, 86, 0.2)',
+						'rgba(75, 192, 192, 0.2)',
+						'rgba(153, 102, 255, 0.2)'
+					],
+					borderColor: [
+						'rgba(255, 99, 132, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						'rgba(75, 192, 192, 1)',
+						'rgba(153, 102, 255, 1)',
+						'rgba(255, 99, 132, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						'rgba(75, 192, 192, 1)',
+						'rgba(153, 102, 255, 1)',
+						'rgba(255, 99, 132, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(255, 206, 86, 1)',
+						'rgba(75, 192, 192, 1)',
+						'rgba(153, 102, 255, 1)'
+					],
+					borderWidth: 1
+				}]
+			},
+			options: {
+				scales: {
+					y: {
+						beginAtZero: true,
+						ticks: {
+							stepSize: 10
+						}
+					}
+				}
+			}
+		});
+	</script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+	</body>
+
+</html>
+					

@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans" , sans-serif;
+}
+
+
+body{
+  background-image: url("./photos/homeWallpaper.jpg");
+  background-size: 100%;
+}
+
+
+
+nav{
+
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 5px solid gray;
+}
+
+.logo{
+   height : 5%;
+    width : 5%;
+    /*margin-top: 2px;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #F6F8FA;
+    background-color: #F4F7FA;
+}
+
+h1, h3{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #A3A7AC;
+  padding: 10px;
+}
+
+p {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  text-align: justify;
+}
+
+
+#icon {
+  border-radius: 4px;
+  width:50px;
+  height: auto;
+
+}
